@@ -173,7 +173,6 @@ score = model.evaluate(testX, testY, verbose=0)
 test_loss = score
 
 #persistense_loss
-#epoch goto ni syuturyoku dasanaito ikenai kedo wakarann
 persistense = np.zeros_like(trainY)
 persistense_loss = np.zeros(len(trainY)-1)
 val_persistense = np.zeros_like(validationY)
